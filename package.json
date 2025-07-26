@@ -1,0 +1,31 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src -ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vian4dev/api-rest-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vian4dev/api-rest-nodejs/issues"
+  },
+  "homepage": "https://github.com/vian4dev/api-rest-nodejs#readme",
+  "dependencies": {
+    "fastify": "^5.4.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^24.1.0",
+    "eslint": "^8.57.1",
+    "tsx": "^4.20.3"
+  }
+}
