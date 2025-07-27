@@ -1,5 +1,5 @@
 # TernJS port file
-.db/app.db
+db/app.db
 
 # Logs
 logs
