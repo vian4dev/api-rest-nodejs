@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
-    "lint": "eslint src -ext .ts --fix"
+    "lint": "eslint src -ext .ts --fix",
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^24.1.0",
     "eslint": "^8.57.1",
-    "tsx": "^4.20.3"
+    "tsx": "^4.20.3",
+    "vitest": "^3.2.4"
   }
 }
