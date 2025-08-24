@@ -1,12 +1,14 @@
 {
   "name": "api-rest-nodejs",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
     "lint": "eslint src -ext .ts --fix",
+    "build": "tsup src --out-dir build",
     "test": "vitest"
   },
   "repository": {
@@ -27,7 +29,6 @@
     "fastify": "^4.29.1",
     "knex": "^3.1.0",
     "sqlite3": "^5.1.7",
-    "typescript": "^5.8.3",
     "zod": "^4.0.14"
   },
   "devDependencies": {
@@ -36,7 +37,9 @@
     "@types/supertest": "^6.0.3",
     "eslint": "^8.57.1",
     "supertest": "^7.1.4",
+    "tsup": "^8.5.0",
     "tsx": "^4.20.3",
+    "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   }
 }
