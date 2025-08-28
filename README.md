@@ -26,6 +26,13 @@
 ## ✒️ Descrição
 
 ## 🚀 Tecnologias utilizadas
+<div style="display: inline_block"><br>
+  <img align="center" alt="img-nodejs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/nodejs/nodejs-plain-wordmark.svg">
+	
+  <img align="center" alt="img-typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+
+  <img align="center" alt="img-nextjs" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/NextJS-Light.svg">
+</div>
 
 ## ✅ Requisitos da Aplicação
 
@@ -56,7 +63,7 @@ npm install
 ~~~
 Execute a migrations.
 ~~~
-pnpm run dev:server
+npm run knex -- migrate:latest
 ~~~
 Execute a aplicação.
 ~~~
