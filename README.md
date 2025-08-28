@@ -36,12 +36,32 @@
 - [x] O usuário deve poder visualizar uma transação única;
 ### RN
 - [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá;
-- [ ] Deve ser possível identificarmos o usuário entre as requisições;
-- [ ] O usuário só pode visualizar transações o qual ele criou;
+- [x] Deve ser possível identificarmos o usuário entre as requisições;
+- [x] O usuário só pode visualizar transações o qual ele criou;
 
 ## 📷 Demostração
 
 ## 🔥 Instalação
+Clone o repositório.
+~~~
+git clone https://github.com/vian4dev/api-rest-nodejs.git
+~~~
+Acesse o diretório do projeto.
+~~~
+cd api-rest-nodejs/
+~~~
+Instale as dependências.
+~~~
+npm install 
+~~~
+Execute a migrations.
+~~~
+pnpm run dev:server
+~~~
+Execute a aplicação.
+~~~
+npm run dev
+~~~
 
 ## 📝 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
