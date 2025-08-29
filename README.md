@@ -31,7 +31,9 @@
 	
   <img align="center" alt="img-typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
 
-  <img align="center" alt="img-nextjs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/fastify/fastify-original.svg">
+  <img align="center" alt="img-fastify" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/fastify/fastify-original.svg">
+
+  <img align="center" alt="img-knex" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/knexjs/knexjs-original.svg">
 </div>
 
 ## ✅ Requisitos da Aplicação
