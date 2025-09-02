@@ -24,6 +24,7 @@
 # API NODE REST
 
 ## ✒️ Descrição
+Nesse módulo iremos desenvolver uma API REST, mas dessa vez utilizando o Fastify, Knex, TypeScript e outras ferramentas para auxiliar durante o desenvolvimento.
 
 ## 🚀 Tecnologias utilizadas
 <div style="display: inline_block"><br>
