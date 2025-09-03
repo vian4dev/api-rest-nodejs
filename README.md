@@ -24,7 +24,7 @@
 # API NODE REST
 
 ## ✒️ Descrição
-Nesse módulo iremos desenvolver uma API REST, mas dessa vez utilizando o Fastify, Knex, TypeScript e outras ferramentas para auxiliar durante o desenvolvimento.
+Essa e uma API REST desenvolvida em NodeJS que lista transações financeiras, utilizando  Fastify, Knex, TypeScript entre outras ferramentas. 
 
 ## 🚀 Tecnologias utilizadas
 <div style="display: inline_block"><br>
