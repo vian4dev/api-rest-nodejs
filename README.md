@@ -64,6 +64,12 @@ Instale as dependências.
 ~~~
 npm install 
 ~~~
+Crie o arquivo .env na raiz do diretório.
+~~~
+NODE_ENV=development
+DATABASE_CLIENT=sqlite
+DATABASE_URL=./db/app.db"
+~~~
 Execute a migrations.
 ~~~
 npm run knex -- migrate:latest
